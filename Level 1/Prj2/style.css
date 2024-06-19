@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+#main {
+    height: 100%;
+    width: 100%;
+}
+#top {
+    padding: 50px;
+    height: 40%;
+    width: 100%;
+}
+#top h1 {
+    font-size: 120px;
+    line-height: 120px;
+    letter-spacing: -3px;
+}
+#loc {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#loc h3,
+#loc h4 {
+    font-size: 40px;
+    font-weight: 600;
+}
+img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+#abt {
+    height: 50%;
+    width: 100%;
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#abt h2 {
+    width: 63%;
+    font-size: 82px;
+    line-height: 83px;
+    letter-spacing: -2px;
+    font-weight: 600;
+}
+#pt2 {
+    width: 36%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid black;
+    justify-content: space-between;
+    padding: 0 30px;
+    margin-bottom: 30px;
+}
+#pt2 h3 {
+    font-size: 45px;
+}
+#icns i {
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 6px;
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+}
+#work {
+    height: 45%;
+    width: 100%;
+    border-top: 2px solid black;
+    display: flex;
+    padding: 50px 60px;
+}
+#wrk1 {
+    width: 35%;
+    display: flex;
+    height: 100%;
+    padding:;
+    justify-content: space-between;
+    border-right: 2px solid black;
+}
+#wrk1 i {
+    font-size: 52px;
+}
+#wrk1 h3 {
+    font-size: 46px;
+    font-weight: 600;
+}
+#wrk2 {
+    width: 65%;
+    height: 100%;
+    padding: 0 60px;
+}
+.wrk2p1 {
+    background-color:;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.wrk2p1:nth-child(1) {
+    border-bottom: 2px solid black;
+    padding-top: 0px;
+}
+.wrk2p1 .elem {
+    width: 50%;
+    height: 100%;
+}
+.wrk2p1 .elem:nth-child(1) {
+    border-right: 2px solid black;
+    padding-right: 60px;
+}
+.wrk2p1 .elem:nth-child(2) {
+    padding-left: 60px;
+}
+.wrk2p1 .elem h4 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.wrk2p1 .elem p {
+    font-size: 20px;
+}
