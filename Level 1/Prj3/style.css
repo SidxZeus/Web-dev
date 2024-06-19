@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+.main {
+    height: 100%;
+    width: 100%;
+}
+.nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    padding: 30px 60px;
+    justify-content: space-between;
+    /* background-color: black; */
+}
+#pt1 {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+#pt2 {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.nav h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.nav h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.content {
+    margin-top: 60px;
+    padding: 40px 60px;
+}
+.content h3 {
+    font-size: 40px;
+}
+.content h1 {
+    font-size: 150px;
+    margin-top: 40px;
+    font-weight: 500;
+    line-height: 160px;
+}
+.case {
+    padding: 40px 60px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.case h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.right h5 {
+    font-size: 20px;
+}
+.right {
+    display: flex;
+    align-items: center;
+}
+.line {
+    height: 2px;
+    width: 100px;
+    background-color: black;
+    gap: 40px;
+}
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 10px 50px;
+}
+.elem {
+    width: 50%;
+}
+.elem-img {
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+    background-color: red;
+    border-radius: 30px;
+}
+#img1 {
+    background-image: url("https://i.imgur.com/NneEWgi.jpeg");
+}
+#img2 {
+    background-image: url("https://i.imgur.com/NneEWgi.jpeg");
+}
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.bottom h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 10px;
+}
